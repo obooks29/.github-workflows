@@ -5,17 +5,17 @@ on:
 
 jobs:
   FirstJob:  #job ID (First Job)
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
     steps: 
       - name: greetings  #identifier for step 1
         run:  echo "How are you doing?"
 
       - name: print all files #identifier for step 2
-        run:  ls - al
+        run:  ls -al
 
     
   SecondJob:  #job ID (First Job)
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
     steps: 
       - name: print my name  #identifier for step 1
         run:  echo "Emmanuel"
